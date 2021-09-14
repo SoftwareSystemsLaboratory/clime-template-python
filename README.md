@@ -2,12 +2,15 @@
 
 > Template Python repository for the ssl-metrics project
 
+[![Publish to PyPi](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-template-python/actions/workflows/pypi.yml/badge.svg)](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-template-python/actions/workflows/pypi.yml)
+
 ## Table of Contents
 
 - [SSL Metrics Template Python Repository](#ssl-metrics-template-python-repository)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
   - [What Files Need to be Changed?](#what-files-need-to-be-changed)
+    - [Specific README.md changes](#specific-readmemd-changes)
     - [DO NOT CHANGE THESE FILES](#do-not-change-these-files)
   - [What Needs to be Changed in the Project?](#what-needs-to-be-changed-in-the-project)
     - [About Section](#about-section)
@@ -24,6 +27,10 @@ This is a mock project containing the base files and project structure for an *s
 Every file (with the exception of the files listed below) need to have some change done to them. It should be obvious once each file is looked at.
 
 However, these files would have to change anyways. So consider it a task instead of a chore 😊!
+
+### Specific README.md changes
+
+- The badge at the top of the page needs to be changed to match the `Publish to Pypi` GitHub Action per repository
 
 ### DO NOT CHANGE THESE FILES
 
