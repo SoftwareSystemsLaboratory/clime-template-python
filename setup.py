@@ -52,7 +52,7 @@ setup(
     entry_points={
         "console_scripts": [
             "ssl-metrics-MODULE-NAME-collect = ssl_metrics_MODULE_NAME.FILENAME:main",
-            "ssl-metrics-MODULE-NAME-graph = ssl_metrics_MODULE_NAME.FILENAME:main",
+            "ssl-metrics-MODULE-NAME-graph = ssl_metrics_MODULE_NAME.create_graph:main",
         ]
     },
 )
