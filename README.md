@@ -1,2 +1,3 @@
-# ssl-metrics-template-python
-Template Python repository for the ssl-metrics project
+# SSL Metrics Template Python Repository
+
+> Template Python repository for the ssl-metrics project
