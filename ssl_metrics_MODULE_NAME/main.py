@@ -1,11 +1,17 @@
-
 from argparse import ArgumentParser, Namespace
 
 
 def get_argparse() -> Namespace:
     parser: ArgumentParser = ArgumentParser(
-        prog="PROGRAM NAME",
-        usage="PROGRAM DESCRIPTION",
+        # TODO: Add program name
+        # TODO: Choose either Computation or Collection
+        # TODO: Add program usage
+        # TODO: Add program description
+        # TODO: Add program epilog
+        prog="SSL Metrics PROJECT NAME COMPUTATION/COLLECTION Utility",
+        usage="PROGRAM USAGE",
+        description="PROGRAM DESCRIPTION",
+        epilog="PROGRAM EPILOG"
     )
     parser.add_argument(
         "-i",
@@ -24,6 +30,7 @@ def main() -> None:
     if args.input[-5::] != ".json":
         print("Invalid input file type. Input file must be JSON")
         quit(1)
+
 
 if __name__ == "__main__":
     main()
