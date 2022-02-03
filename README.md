@@ -1,73 +1,66 @@
-# SSL Metrics Template Python Repository
+# Software Systems Laboratory Template Python Project
 
-> Template Python repository for the ssl-metrics project
+> A template Python project for bootstrapping tool development
 
-[![Publish to PyPi](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-template-python/actions/workflows/pypi.yml/badge.svg)](https://github.com/SoftwareSystemsLaboratory/ssl-metrics-template-python/actions/workflows/pypi.yml)
+![[https://img.shields.io/badge/python-3.9.6%20%7C%203.10-blue](https://img.shields.io/badge/python-3.9.6%20%7C%203.10-blue)](https://img.shields.io/badge/python-3.9.6%20%7C%203.10-blue)
+![[https://img.shields.io/badge/DOI-Example-red](https://img.shields.io/badge/DOI-Example-red)](https://img.shields.io/badge/DOI-Example-red)
+![[https://img.shields.io/badge/build-Example-red](https://img.shields.io/badge/build-Example-red)](https://img.shields.io/badge/build-Example-red)
+![[https://img.shields.io/badge/license-BSD--3-yellow](https://img.shields.io/badge/license-BSD--3-yellow)](https://img.shields.io/badge/license-BSD--3-yellow)
 
 ## Table of Contents
 
-- [SSL Metrics Template Python Repository](#ssl-metrics-template-python-repository)
+- [Software Systems Laboratory Template Python Project](#software-systems-laboratory-template-python-project)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
-  - [What Files Need to be Changed?](#what-files-need-to-be-changed)
-    - [Specific README.md changes](#specific-readmemd-changes)
-    - [DO NOT CHANGE THESE FILES](#do-not-change-these-files)
-  - [What Needs to be Changed in the Project?](#what-needs-to-be-changed-in-the-project)
-    - [About Section](#about-section)
-    - [Settings](#settings)
-      - [Features](#features)
-      - [Actions](#actions)
+  - [Tooling](#tooling)
+    - [Operating System](#operating-system)
+    - [Shell Software](#shell-software)
+    - [Python Software](#python-software)
+  - [How To Use](#how-to-use)
+  - [Changes To Make To Your Project](#changes-to-make-to-your-project)
 
 ## About
 
-This is a mock project containing the base files and project structure for an *ssl-metrics Python 3.9 + project*.
+The Software Systems Laboratory (SSL) Template Python Project is a `git` repository that can be cloned and modified to bootstrap development of tools for the greater SSL Metrics project. It can also be modified by outside teams or individuals for usage of their own personal projects.
 
-## What Files Need to be Changed?
+This project is licensed under the BSD-3-Clause. See the [LICENSE](LICENSE) for more information.
 
-Every file (with the exception of the files listed below) need to have some change done to them. It should be obvious once each file is looked at.
+## Tooling
 
-However, these files would have to change anyways. So consider it a task instead of a chore 😊!
+To maximize the utility of this project and the greater SSL Metrics project, the following software packages are **required**:
 
-### Specific README.md changes
+### Operating System
 
-- The badge at the top of the page needs to be changed to match the `Publish to Pypi` GitHub Action per repository
+All tools developed for the greater SSL Metrics project **must target** Mac OS and Linux. SSL Metrics software is not supported or recommended to run on Windows *but can be modified to do so at your own risk*.
 
-### DO NOT CHANGE THESE FILES
+It is recomendded to develop on Mac OS or Linux. However, if you are on a Windows machine, you can use WSL to develop as well.
 
-- Any `.gitkeep` file
-- [LICENSE](LICENSE)
-- [\_\_init__.py](ssl_metrics_MODULE_NAME/__init__.py)
-- [.github/workflows/pypi.yml](.github/workflows/pypi.yml)
+### Shell Software
 
-## What Needs to be Changed in the Project?
+- `git`
+- `jq`
+- `wc`
 
-### About Section
+### Python Software
 
-- **Description** needs to match the description in [README.md](README.md)
-- **Website** needs to point to: [`https://ssl.cs.luc.edu/projects/metricsDashboard`](https://ssl.cs.luc.edu/projects/metricsDashboard)
-- **Topics** needs to contain *in this order*
-  - git
-  - github
-  - metrics
-  - python
-  - software-engineering
-- **Topics** can contain other related topics after *software-engineering*
-- **Select**:
-  - Releases
-- **Deselect**:
-  - Packages
-  - Environments
+> The software listed in this section is meant for developing tools
 
-### Settings
+All listed Python software assumes that you have downloaded and installed **Python 3.9.6** or greater.
 
-#### Features
+- `black`
+- `build`
+- `isort`
+- `pylint`
 
-- **Deselect**:
-  - Wikis
-  - Restric editing to users in teams with push access only
-  - Projects
+You can install all of the Python software with this one-liner:
 
-#### Actions
+`pip install --upgrade black build isort pip pylint`
 
-- **Select**:
-  - Allow all actions
+## How To Use
+
+It is recomended to create a new repository with GitHub referencing this template and then cloning the new repository.
+
+## Changes To Make To Your Project
+
+1. Change the name of the package folder from `ssl_metrics_MODULE_NAME` to your packages name
+2. Fix all `TODOs`

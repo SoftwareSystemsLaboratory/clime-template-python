@@ -3,8 +3,14 @@ from argparse import ArgumentParser, Namespace
 
 def get_argparse() -> Namespace:
     parser: ArgumentParser = ArgumentParser(
-        prog="PROGRAM NAME",
-        usage="PROGRAM DESCRIPTION",
+        # TODO: Add program name
+        # TODO: Add program usage
+        # TODO: Add program description
+        # TODO: Add program epilog
+        prog="SSL Metrics PROJECT NAME Graphing Utility",
+        usage="PROGRAM USAGE",
+        description="PROGRAM DESCRIPTION",
+        epilog="PROGRAM EPILOG",
     )
     parser.add_argument(
         "-i",
