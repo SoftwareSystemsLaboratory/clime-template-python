@@ -2,6 +2,11 @@
 
 > A template Python project for bootstrapping tool development
 
+![[https://img.shields.io/badge/python-3.9.6%20%7C%203.10-blue](https://img.shields.io/badge/python-3.9.6%20%7C%203.10-blue)](https://img.shields.io/badge/python-3.9.6%20%7C%203.10-blue)
+![[https://img.shields.io/badge/DOI-Example-red](https://img.shields.io/badge/DOI-Example-red)](https://img.shields.io/badge/DOI-Example-red)
+![[https://img.shields.io/badge/build-Example-red](https://img.shields.io/badge/build-Example-red)](https://img.shields.io/badge/build-Example-red)
+![[https://img.shields.io/badge/license-BSD--3-yellow](https://img.shields.io/badge/license-BSD--3-yellow)](https://img.shields.io/badge/license-BSD--3-yellow)
+
 ## Table of Contents
 
 - [Software Systems Laboratory Template Python Project](#software-systems-laboratory-template-python-project)
@@ -49,7 +54,7 @@ All listed Python software assumes that you have downloaded and installed **Pyth
 
 You can install all of the Python software with this one-liner:
 
-`pip install --upgrade pip black build isort pylint`
+`pip install --upgrade black build isort pip pylint`
 
 ## How To Use
 

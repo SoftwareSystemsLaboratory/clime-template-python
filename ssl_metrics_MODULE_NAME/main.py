@@ -11,7 +11,7 @@ def get_argparse() -> Namespace:
         prog="SSL Metrics PROJECT NAME COMPUTATION/COLLECTION Utility",
         usage="PROGRAM USAGE",
         description="PROGRAM DESCRIPTION",
-        epilog="PROGRAM EPILOG"
+        epilog="PROGRAM EPILOG",
     )
     parser.add_argument(
         "-i",
