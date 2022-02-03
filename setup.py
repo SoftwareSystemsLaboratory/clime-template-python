@@ -1,11 +1,15 @@
 from setuptools import setup
 
+# TODO: Change import
 from ssl_metrics_MODULE_NAME import version
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
+    # TODO: Change name
+    # TODO: Change packages
+    # TODO: Change description
     name="ssl-metrics-MODULE-NAME",
     packages=["ssl_metrics_MODULE_NAME"],
     version=version.version(),
@@ -17,6 +21,8 @@ setup(
     long_description_content_type="text/markdown",
     url="https://ssl.cs.luc.edu/projects/metricsDashboard",
     project_urls={
+        # TODO: Change Bug Tracker URL
+        # TODO: Change GitHub Repository URL
         "Bug Tracker": "https://github.com/SoftwareSystemsLaboratory/ssl-metrics-REPOSITORY-NAME/issues",
         "GitHub Repository": "https://github.com/SoftwareSystemsLaboratory/ssl-metrics-REPOSITORY-NAME",
     },
@@ -60,11 +66,13 @@ setup(
     ],
     python_requires=">=3.9",
     install_requires=[
-        # ADD ME
+        # TODO: Add requirements
     ],
     entry_points={
+        # TODO: Change module name
+        # TODO: Change module function to execute
         "console_scripts": [
-            "ssl-metrics-MODULE-NAME-collect = ssl_metrics_MODULE_NAME.FILENAME:main",
+            "ssl-metrics-MODULE-NAME-compute = ssl_metrics_MODULE_NAME.FILENAME:main",
             "ssl-metrics-MODULE-NAME-graph = ssl_metrics_MODULE_NAME.create_graph:main",
         ]
     },
