@@ -64,4 +64,3 @@ It is recomended to create a new repository with GitHub referencing this templat
 
 1. Change the name of the package folder from `ssl_metrics_MODULE_NAME` to your packages name
 2. Fix all `TODOs`
-3. Delete/Replace content in this `README.md` with that of `README_TEMPLATE.md` and fix content where needed
