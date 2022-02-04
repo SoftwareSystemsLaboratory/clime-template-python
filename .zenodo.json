@@ -14,11 +14,6 @@
         "orcid": "0000-0001-7586-7408"
         },
         {
-        "name": "Synovic, Nicholas",
-        "affiliation": "Loyola University Chicago",
-        "orcid": "0000-0003-0413-4594"
-        },
-        {
         "name": "Palmer, Jake",
         "affiliation": "Loyola University Chicago",
         "orcid": ""
@@ -34,14 +29,11 @@
         "orcid": "0000-0003-0413-4594"
         },
         {
-<<<<<<< HEAD
-=======
         "name": "Thota, Sohini",
         "affiliation": "Loyola University Chicago",
         "orcid": "0000-0002-3496-8867"
         },
         {
->>>>>>> dev
         "name": "Thiruvathukal, George K.",
         "affiliation": "Loyola University Chicago and Argonne National Laboratory",
         "orcid": "0000-0002-0452-5571"
