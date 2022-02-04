@@ -12,7 +12,7 @@
 - [Software Systems Laboratory Template Python Project](#software-systems-laboratory-template-python-project)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
-  - [Tooling](#tooling)
+  - [Developer Tooling](#developer-tooling)
     - [Operating System](#operating-system)
     - [Shell Software](#shell-software)
     - [Python Software](#python-software)
@@ -25,7 +25,7 @@ The Software Systems Laboratory (SSL) Template Python Project is a `git` reposit
 
 This project is licensed under the BSD-3-Clause. See the [LICENSE](LICENSE) for more information.
 
-## Tooling
+## Developer Tooling
 
 To maximize the utility of this project and the greater SSL Metrics project, the following software packages are **required**:
 
